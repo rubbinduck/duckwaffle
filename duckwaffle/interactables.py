@@ -24,7 +24,7 @@ class Interactable:
     """
 
     def __init__(self, ia_is_gettable, iacombine, iadescribe, iastate, iavalue=None):
-        self.is_gettable = ia_is_gettable
+        self.ia_is_gettable = ia_is_gettable
         self.iacombine = iacombine
         self.iadescribe = iadescribe
         self.iastate = iastate
