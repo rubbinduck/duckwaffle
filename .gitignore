@@ -128,6 +128,20 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# pytype static type analyzer
+.pytype/
 
-# ignore main.py files for pycharm
+# Cython debug symbols
+cython_debug/
+*.grb
+*.nmea
+logging/
+
+# Pypi config file
+.pypirc
+
+# Pycharm makes some dirs
+.idea
+
+# Don't track main.py
 main.py
